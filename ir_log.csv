@@ -1,0 +1,6 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,Màu sắc trang phục và ghế bị mất chỉ còn thang độ xám đồng nhất,type (object),khó phân biệt chất liệu túi và áo; phải nhận diện bằng hình dáng hình học
+S04_ir,IR_sim,Ảnh IR mô phỏng không tái hiện được hiệu ứng phản xạ ánh sáng thật trên tròng kính,glasses,không thấy rõ tròng kính râm hay kính cận; gán unknown
+D01,real_IR,Đèn LED NIR 940nm chiếu làm sáng rực đồng tử và tạo đốm lóa trên bề mặt kính,eye_left/right,mắt bị đốm lóa che khuất phải đánh unknown thay vì closed
+D03,real_IR,Ánh sáng hồng ngoại gần xuyên qua được lớp kính râm sẫm màu,glasses,mắt vẫn nhìn thấy rõ chuyển động dù tài xế đeo kính râm; gán open
+D05,real_IR,Tia NIR phản xạ mạnh từ bề mặt nhựa vô lăng và taplo gây bóng lóa,on_wheel,phần cổ tay và ngón tay tiếp xúc vô lăng khó xác định ranh giới; phải chỉnh contrast để gán
